@@ -1,8 +1,10 @@
 import React from "./node_modules/react";
-import "./style.css";
-import { Link } from 'react-router-dom';
+import "./NavBar.css";
+import { Link, useLocation } from "react-router-dom";
 
 function NavBar() {
+ 
+  const location = useLocation();
   return (
     <nav class="navbar navbar-light navbar-expand-lg">
 
@@ -16,24 +18,20 @@ function NavBar() {
             <li class="nav-item ">
             <Link
               to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/about"
-                  ? "nav-link active"
-                  : "nav-link"
-              }>  About
+              className={location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active": "nav-link"}>  About
             </Link>
             </li>
             <li class="nav-item">
             <Link
               to="/portfolio"
-              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"} >
+              className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"} >
               Portfolio
             </Link>
             </li>
             <li class="nav-item active">
             <Link
               to="/Contact"
-              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"} >
+              className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"} >
               Contact
             </Link>
             </li>
