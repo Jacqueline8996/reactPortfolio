@@ -1,6 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import NavBar from "./component/NavBar/NavBar";
+import JacquelineRivera from "../../assets/Images/JacquelineRivera.jpg"
+// import { BrowserRouter as Router, Route } from "react-router-dom";
+// import NavBar from "./component/NavBar/NavBar";
 // import Footer from "./component/Footer";
 
 
@@ -16,7 +17,7 @@ function AboutMe() {
                 
                     
                 <div className="col-md-12">
-                        <img srcset="assets/Images/JacquelineRivera.jpg" alt="JacquelineRivera" id="image1" ></img>
+                        <img src={JacquelineRivera} alt="JacquelineRivera" id="image1"/>
                         <p className="ParaText">
                             I graduated from the University of Maryland Baltimore County otherwise known as UMBC in 2018. 
                             I obtained my Bachlores in Science in Biological Science with a minor in Psychology. 
@@ -28,7 +29,7 @@ function AboutMe() {
 
         
                 <div className="row">
-                    <div className="col-md-12">
+              n      <div className="col-md-12">
                         
                         <p className="ParaText">
                             Currently Advancing skills as a Full-Stack developer with a strong Scientific Background  able to provide a new perspective. 
