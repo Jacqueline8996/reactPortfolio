@@ -13,7 +13,7 @@ function AboutMe() {
                 </div>
             
                 <div className="col-md-12">
-                    <img srcset={JacquelineRivera} alt="JacquelineRivera" id="image1" ></img>
+                    <img src={JacquelineRivera} alt="JacquelineRivera" id="image1" ></img>
                     <p className="ParaText">
                         I graduated from the University of Maryland Baltimore County otherwise known as UMBC in 2018. 
                         I obtained my Bachlores in Science in Biological Science with a minor in Psychology. 

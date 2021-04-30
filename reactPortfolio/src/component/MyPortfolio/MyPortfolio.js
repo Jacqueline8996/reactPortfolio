@@ -3,7 +3,6 @@ import "./MyPortfolio.css";
 import CarouselItem from "../CarouselItem/CarouselItem";
 
 
-
 class MyPortfolio extends React.Component {
    
     render () {

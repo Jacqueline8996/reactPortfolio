@@ -12,7 +12,7 @@ function Footer() {
                 Made by Jacqueline Rivera
                 </div>
                 <div className="col-lg-6">
-                <a href={Resume} className="download" Download>Download Resume</a>
+                <a href={Resume} className="download" download>Download Resume</a>
                 </div>
             </div>
         </div>

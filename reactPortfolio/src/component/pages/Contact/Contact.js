@@ -2,7 +2,9 @@ import React from "react";
 import NavBar from "../../NavBar/NavBar";
 import Footer from "../../Footer/Footer";
 import Wrapper from "../../Wrapper/Wrapper";
-import ContactMe from "../../ContactMe/ContactMe"
+import ContactMe from "../../ContactMe/ContactMe";
+
+
 function Contact(){
   return (
   <div>

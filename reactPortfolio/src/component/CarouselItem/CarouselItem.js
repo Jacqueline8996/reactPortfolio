@@ -23,7 +23,7 @@ class CarouselItem extends React.Component {
         return (
         <Carousel>
             {SLIDE.map(sl => (
-            <Carousel.Item className = "my-4"interval={70000}>
+            <Carousel.Item key={sl.alt} className = "my-4"interval={70000}>
                 <img
                     className="d-block w-300 image align-items-start"
                     src={sl.src}
@@ -31,11 +31,8 @@ class CarouselItem extends React.Component {
                 />
                 <div className = "captionDiv">
                 <Carousel.Caption className = "bg-dark mb-4  " id ="#divInfo">
-                    <p className = "infoBox">
                     <a href ={sl.href} className = "title">{sl.title}</a>
                     <p className = "description">{sl.Description}</p>
-                    </p>
-                    
                 </Carousel.Caption>
                 </div>
             </Carousel.Item>
