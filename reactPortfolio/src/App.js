@@ -1,21 +1,28 @@
 import React from "react";
-// import { BrowserRouter as Router, Route } from "react-router-dom";
-import NavBar from "./component/NavBar/NavBar.js";
-import Footer from "./component/Footer/Footer.js";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+// import NavBar from "./component/NavBar/NavBar.js";
+// import Footer from "./component/Footer/Footer.js";
 import About from "./component/pages/About/About.js";
-// import Contact from "./pages/Contact";
-// import Portfolio from "./pages/Portfolio";
-// import Wrapper from "./component/Wrapper/Wrapper";
+import Contact from "./component/pages/Contact/Contact";
+import Portfolio from "./component/pages/Portfolio/Portfolio";
+import Wrapper from "./component/Wrapper/Wrapper";
 
 function App() {
   return (
  
     
+    <Router>
     <div>
-        <NavBar></NavBar>
-        <About></About>
-        <Footer></Footer>
+      <Wrapper>
+        <Switch>
+          <Route exact path={["/", "/About"]} component={About} />
+          <Route exact path={"/Contact"} component={Contact} />
+          <Route exact path={"/Portfolio"} component={Portfolio} />
+        </Switch>
+      </Wrapper>
+      
     </div>
+   </Router>
   
   );
 }

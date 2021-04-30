@@ -1,20 +1,19 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-import "./About.css";
+// import "./style.css";
 import NavBar from "../../NavBar/NavBar";
 import Footer from "../../Footer/Footer";
 import Wrapper from "../../Wrapper/Wrapper";
-import AboutMe from "../../AboutMe/AboutMe";
+import MyPortfolio from "../../MyPortfolio/MyPortfolio"
 
 function About() {
   return (
     <div>
     <NavBar />
     <Wrapper>
-      <AboutMe />
+      <MyPortfolio/>
     </Wrapper>
     <Footer/>
-    </div>
+  </div>
 
   );
 }

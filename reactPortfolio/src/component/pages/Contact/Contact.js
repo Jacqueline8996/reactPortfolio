@@ -1,22 +1,17 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-import "./About.css";
 import NavBar from "../../NavBar/NavBar";
 import Footer from "../../Footer/Footer";
 import Wrapper from "../../Wrapper/Wrapper";
-import AboutMe from "../../AboutMe/AboutMe";
-
-function About() {
+import ContactMe from "../../ContactMe/ContactMe"
+function Contact(){
   return (
-    <div>
+  <div>
     <NavBar />
     <Wrapper>
-      <AboutMe />
+      <ContactMe/>
     </Wrapper>
     <Footer/>
-    </div>
-
-  );
+  </div>)
 }
 
-export default About;
+export default Contact;
