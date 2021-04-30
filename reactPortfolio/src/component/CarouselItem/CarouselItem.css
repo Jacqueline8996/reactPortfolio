@@ -1,5 +1,19 @@
-.captions {
-    position:relative;
-    top: 0;
-    bottom: 0;
- }
+
+ #divInfo{
+    font-size: 5px;
+    margin-top:15px;
+    text-align: center;
+
+}
+.image{
+    width: 100%;
+}
+.captionDiv{
+    padding-top: 30px;
+}
+.title{
+    font-size: 20px;
+}
+.description{
+    font-size: 15px;
+}
