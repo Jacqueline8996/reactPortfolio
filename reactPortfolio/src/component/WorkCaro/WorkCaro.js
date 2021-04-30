@@ -7,7 +7,7 @@ import ThirdImage from "../../assets/Images/YoutubePage.png";
 
 const SLIDE = [
     { alt:"First slide",title:'Github',href:"https://github.com/Jacqueline8996",src:`${FirstImage}`,Description:"A link to all my github Repository/Page", state:" carousel-item active"},
-    { alt:"Second slide",title:'A link to my linkedin Profile',href:"https://vast-forest-11479.herokuapp.com/",src:`${SecondImage}`,Description:"Demonstrated the base information of CRUD by utilizing a popular card-game in order to create personalized decks for each individual user that can be updated, modified and deleted.",state:"carousel-item"},
+    { alt:"Second slide",title:'A link to my linkedin Profile',href:"https://www.linkedin.com/in/jacqueline-rivera/",src:`${SecondImage}`,Description:"Follow me On LinkedIn",state:"carousel-item"},
     { alt:"Third slide",title:'A link to my personal Youtube page',href:"https://www.youtube.com/channel/UCptERRYa6vAMis8rmbNSZEw/featured?view_as=subscriber",src:`${ThirdImage}`,Description:"A link to my personal Youtube page",state:"carousel-item"},
 ]
 
