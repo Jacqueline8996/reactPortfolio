@@ -11,7 +11,8 @@ function Contact(){
       <ContactMe/>
     </Wrapper>
     <Footer/>
-  </div>)
+  </div>
+  )
 }
 
 export default Contact;
