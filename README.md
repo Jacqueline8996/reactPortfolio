@@ -28,13 +28,13 @@
 
 # Page Images 
 * Images of the home page of the link 
-![alt text](reactPortfolio/src/assets/Images/StartProfile.png)
+![alt text](/src/assets/Images/StartProfile.png)
 
 * Resources on Me will be located here 
-![alt text](reactPortfolio/src/assets/Images/Portfolio.png)
+![alt text](/src/assets/Images/Portfolio.png)
 
 * Contact information can be delivered 
-![alt text](reactPortfolio/src/assets/Images/Contact.png)
+![alt text](/src/assets/Images/Contact.png)
 
 # Project_Contributors
 * Author is the sole contributor 
