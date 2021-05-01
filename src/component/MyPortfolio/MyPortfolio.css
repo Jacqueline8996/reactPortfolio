@@ -1,0 +1,21 @@
+.portImg{
+    height: 350px;
+    width: 350px;
+    padding: 2px;
+    margin: 5px;
+    border: 1px solid black;
+      
+}
+.backDropImage{
+    background-color: #ffffff;
+    margin-bottom: 75px;
+    margin-top:75px;
+    padding: 15px;
+    border:10px solid #ffffff;
+    width: 100%;
+    height: 100%;
+}
+.divCenter{
+    padding-left: 20%;
+    padding-right: 20%;
+  }

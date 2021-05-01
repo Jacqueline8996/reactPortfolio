@@ -1,0 +1,26 @@
+*section desgin*/
+section{
+    background-color: #ffffff;
+    margin-bottom: 75px;
+    margin-top:75px;
+    padding: 15px;
+    border:10px solid #ffffff;
+}
+
+/*Standard title scheme for all pages*/
+#sectiontitle{
+    font-size: 50px;
+    color: teal;
+    font-weight: bolder;
+    border-bottom: 2px solid grey;
+}
+
+/*Picture on about page*/
+#image1{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 10px;
+    padding-left: 10px;  
+    clear: both; 
+}

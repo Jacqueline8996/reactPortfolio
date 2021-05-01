@@ -1,0 +1,23 @@
+body {
+  background-color: #228587;
+  color:rgb(0, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: url("./assets/Images/Background-Pattern.png");
+  font-size: 15px;
+}
+/*section desgin*/
+section{
+  background-color: #ffffff;
+  margin-bottom: 75px;
+  margin-top:75px;
+  padding: 15px;
+  border:10px solid #ffffff;
+}
+
+/*Standard title scheme for all pages*/
+#sectiontitle{
+  font-size: 50px;
+  color: teal;
+  font-weight: bolder;
+  border-bottom: 2px solid grey;
+}
