@@ -8,7 +8,7 @@ class MyPortfolio extends React.Component {
     render () {
     return (
         <div>
-            <div className="container">
+            <div className="container-md-auto px-3 ml-5 divCenter">
                 <div className="row">
                     <div className="col-md-10 backDropImage">
                         <div className="row">

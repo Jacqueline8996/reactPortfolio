@@ -5,21 +5,22 @@ import "./AboutMe.css";
 
 function AboutMe() {
   return (
-    <div className="col-md-8 align-items-center">
+    <div className="container-md px-3 ml-5 divCenter">
         <section>
-            <div className="row d-flex justify-content-end">
+            <div className="row align-self-center">
                 <div className="col-md-12 ">
                     <p id="sectiontitle">About me</p>
                 </div>
-            
-                <div className="col-md-12">
-                    <img src={JacquelineRivera} alt="JacquelineRivera" id="image1" ></img>
-                    <p className="ParaText">
-                        I graduated from the University of Maryland Baltimore County otherwise known as UMBC in 2018. 
-                        I obtained my Bachlores in Science in Biological Science with a minor in Psychology. 
-                        During my Time at UMBC I was very active in the latino Community ,since both of my Parents are from El Salvador.
-                        Due to that  I am fluent in Spanish. Currently I work as a Data coordinator at Catalent Gene Therapy.
-                    </p>
+                <div className="row align-items-center">
+                    <div className="col-md-12">
+                        <img src={JacquelineRivera} alt="JacquelineRivera" id="image1" ></img>
+                        <p className="ParaText">
+                            I graduated from the University of Maryland Baltimore County otherwise known as UMBC in 2018. 
+                            I obtained my Bachlores in Science in Biological Science with a minor in Psychology. 
+                            During my Time at UMBC I was very active in the latino Community ,since both of my Parents are from El Salvador.
+                            Due to that  I am fluent in Spanish. Currently I work as a Data coordinator at Catalent Gene Therapy.
+                        </p>
+                    </div>
                 </div>
             </div>
 

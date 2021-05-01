@@ -4,8 +4,8 @@ import WorkCaro from "../WorkCaro/WorkCaro";
 
 function ContactMe(){
   return (
-    <div className="container-md .px-2 .m-1">
-        <div className="row align-items-center">
+    <div className="container-md-auto px-2 m-5 ">
+        <div className="row align-self-center">
             <div className="col-sm-6">
                 <section>
                     <div className="row">
