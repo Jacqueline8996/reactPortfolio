@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/reactPortfolio/static/css/main.f92a83db.chunk.css",
+    "main.js": "/reactPortfolio/static/js/main.db96c5c2.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.db96c5c2.chunk.js.map",
+    "runtime-main.js": "/reactPortfolio/static/js/runtime-main.79edaf62.js",
+    "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.79edaf62.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/reactPortfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.5955476d.chunk.js": "/reactPortfolio/static/js/2.5955476d.chunk.js",
+    "static/js/2.5955476d.chunk.js.map": "/reactPortfolio/static/js/2.5955476d.chunk.js.map",
+    "index.html": "/reactPortfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/reactPortfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.f92a83db.chunk.css.map": "/reactPortfolio/static/css/main.f92a83db.chunk.css.map",
+    "static/js/2.5955476d.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.5955476d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/reactPortfolio/static/media/Background-Pattern.e92aea71.png",
+    "static/media/DemoTeam.4cdb480e.png": "/reactPortfolio/static/media/DemoTeam.4cdb480e.png",
+    "static/media/GitHubPage.8f24bd81.png": "/reactPortfolio/static/media/GitHubPage.8f24bd81.png",
+    "static/media/JacquelineRivera.83fe146a.jpg": "/reactPortfolio/static/media/JacquelineRivera.83fe146a.jpg",
+    "static/media/Jacqueline_Rivera2021_03FEB21.d3475ace.pdf": "/reactPortfolio/static/media/Jacqueline_Rivera2021_03FEB21.d3475ace.pdf",
+    "static/media/LetsPlanADay.d7a39895.png": "/reactPortfolio/static/media/LetsPlanADay.d7a39895.png",
+    "static/media/LinkedIn.d5ce680e.png": "/reactPortfolio/static/media/LinkedIn.d5ce680e.png",
+    "static/media/QuizStart.edcec3b8.png": "/reactPortfolio/static/media/QuizStart.edcec3b8.png",
+    "static/media/RetroBurger.cc8f4c99.png": "/reactPortfolio/static/media/RetroBurger.cc8f4c99.png",
+    "static/media/WeatherDash.bb78e7ef.png": "/reactPortfolio/static/media/WeatherDash.bb78e7ef.png",
+    "static/media/YoutubePage.418f54db.png": "/reactPortfolio/static/media/YoutubePage.418f54db.png",
+    "static/media/noteTaker.fe9273cb.png": "/reactPortfolio/static/media/noteTaker.fe9273cb.png",
+    "static/media/pokemonCard.04dfb6a1.png": "/reactPortfolio/static/media/pokemonCard.04dfb6a1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79edaf62.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.5955476d.chunk.js",
+    "static/css/main.f92a83db.chunk.css",
+    "static/js/main.db96c5c2.chunk.js"
+  ]
+}
