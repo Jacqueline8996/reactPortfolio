@@ -2,15 +2,18 @@
 * ReadMe Generator
 
 # Table Of Content:
-* [Project_Description](#Project_Description)
-* [Project_Installation_Instructions](#Project_Installation_Instructions)
-* [Project_Usage](#Project_Usage)
-* [Project_Contributors](#Project_Contributors)
-* [Project_Test](#Project_Test)
-* [License](#Project_license)
-* [Contact_Information](#Contact_Information)
+* [ProjectDescription](#ProjectDescription)
+* [ProjectInstallationInstructions](#ProjectInstallationInstructions)
+* [ProjectUsage](#ProjectUsage)
+* [ProjectImages](#ProjectImages)
+* [ProjectContributors](#ProjectContributors)
+* [LinkToProjects](#LinkToProjects)
+* [ProjectTest](#ProjectTest)
+* [License](#Projectlicense)
+* [LinktoLinkedIn](#LinktoLinkedIn)
+* [ContactInformation](#ContactInformation)
 
-# Project_Description
+# ProjectDescription
 * My personal portfolio created with React.
   This page will be used to learn more information on the developer. 
   After Viewing the page the following will be know:
@@ -18,15 +21,15 @@
 *   A way to leave your  contact information so the developer may reach out via the Contact Tab. 
 *   As well as current projects they are working on via the Portfolio Tab.
 
-# Project_Installation_Instructions
+# ProjectInstallationInstructions
   There is no installation required for this page, all files can be viewed at the following link:
 * GitHUB Repo : https://jacqueline8996.github.io/reactPortfolio/#/
 * Live Link: https://jacqueline8996.github.io/Portfolio/
 
-# Project_Usage
+# ProjectUsage
 * Click on the link to view live portfolio
 
-# Page Images 
+# PageImages 
 * Images of the home page of the link 
 ![alt text](/src/assets/Images/StartProfile.png)
 
@@ -36,10 +39,10 @@
 * Contact information can be delivered 
 ![alt text](/src/assets/Images/Contact.png)
 
-# Project_Contributors
+# ProjectContributors
 * Author is the sole contributor 
 
-# Link to projects : 
+# LinkToProjects
 *  Figuring out how to get user input to keep them updated. 
 * * Weather DashBoard: https://jacqueline8996.github.io/Homework6/
 * * Project 1 (Let's Plan A Day): https://nvandenberge.github.io/LetsPlanADay/
@@ -50,17 +53,17 @@
 * * Weather Dashboard: "https://jacqueline8996.github.io/Homework6/
 * * Team Profile: "https://github.com/Jacqueline8996/TeamProfile"
 
-# Project_Test
+# ProjectTest
 * No test for this project
 
-# Project_License
+# ProjectLicense
 * The_Unlicense
 * ![badge](https://img.shields.io/static/v1?label=Project_License&message=The_Unlicense&color=teal)
 
-# Link to LinkedIn:
+# LinktoLinkedIn
 * https://www.linkedin.com/in/jacqueline-rivera/
 
-# Contact_Information
+# ContactInformation
 * If you have question or would like to contact the project creator please:
     *  Get Visit Git Hub profile at: (https://github.com/Jacqueline8996)
     *  Email at: Jacqueline8996@gmail.com
