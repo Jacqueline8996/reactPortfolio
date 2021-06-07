@@ -9,7 +9,7 @@ import FithImage from "../../assets/Images/QuizStart.png";
 import SixImage from"../../assets/Images/noteTaker.png";
 import SevenImage from"../../assets/Images/DemoTeam.png";
 import EightImage from"../../assets/Images/D_pad.png";
-import NineImage from"../../assets/Images/SQLEmployeeTracker.gif";
+import NineImage from"../../assets/Images/SQLTracker.png";
 
 const SLIDE = [
     { alt:"First slide",title:'Lets Plan A Day',href:"https://github.com/nvandenberge/LetsPlanADay",src:`${FirstImage}`,Description:"Enter a locartion to get a random location and food", state:" carousel-item active",repo:"https://github.com/nvandenberge/LetsPlanADay"},
@@ -27,7 +27,7 @@ class CarouselItem extends React.Component {
 
     render(){
         return (
-        <Carousel>
+        <Carousel id="divInfo">
             {SLIDE.map(sl => (
             <Carousel.Item key={sl.alt} className = "my-4"interval={70000}>
                 <img
@@ -37,8 +37,9 @@ class CarouselItem extends React.Component {
                 />
                 <div className = "captionDiv">
                 <Carousel.Caption className = "bg-dark mb-4  " id ="#divInfo">
-                    <a href ={sl.href} className = "title">Live link for {sl.title}</a>
-                    <a href ={sl.href} className = "gitRepo"> GitHub Repo:{sl.repo}</a>
+                    <a href ={sl.href} className = "title">Live link for : {sl.title}</a>
+                    <br></br>
+                    <a href ={sl.repo} className = "fab fa-github"></a>
                     <p className = "description">{sl.Description}</p>
                 </Carousel.Caption>
                 </div>
