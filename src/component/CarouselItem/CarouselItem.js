@@ -31,7 +31,7 @@ class CarouselItem extends React.Component {
             {SLIDE.map(sl => (
             <Carousel.Item key={sl.alt} className = "my-4"interval={70000}>
                 <img
-                    className="d-block w-300 image align-items-start"
+                    className="d-block w-300 image align-items-start "
                     src={sl.src}
                     alt={sl.alt}
                 />

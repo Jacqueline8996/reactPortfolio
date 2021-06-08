@@ -1,6 +1,9 @@
 section {
     flex-flow: column wrap;
 }
+.contactArea{
+    z-index: 0;
+}
 .caption{
     background-color: #303030;
     margin-left: -8.2vw;
@@ -15,17 +18,6 @@ section {
 .title:hover {
     color: #e16538;
   }
-
-.fa-github{
-    color: #e16538;
-    font-size: 4vh;
-    text-decoration: none;
-}
-
-.fa-github:hover {
-    color: #6dc4ca;
-    text-decoration: none;
-}
 
 .description {
     width: 90%;
@@ -63,17 +55,6 @@ section {
     #divInfo{
         font-family: 'Special Elite', cursive;
        }
-     
-       .fa-github{
-        color: #e16538;
-        font-size: 2vh;
-        text-decoration: none;
-    }
-    
-    .fa-github:hover {
-        color: #6dc4ca;
-        text-decoration: none;
-    }
    
    } 
    

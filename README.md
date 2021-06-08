@@ -1,5 +1,5 @@
  # reactPortfolio
-* ReadMe Generator
+
 
 # Table Of Content:
 * [ProjectDescription](#ProjectDescription)
@@ -24,7 +24,7 @@
 # ProjectInstallationInstructions
   There is no installation required for this page, all files can be viewed at the following link:
 * GitHUB Repo : https://jacqueline8996.github.io/reactPortfolio/#/
-* Live Link: https://jacqueline8996.github.io/Portfolio/
+* Live Link: https://jacquelineportfolio.herokuapp.com/#/
 
 # ProjectUsage
 * Click on the link to view live portfolio

@@ -8,6 +8,7 @@ footer {
     border-top:5px solid teal ;
     font-size: 10px;
     text-align: center;
+    z-index: 4;
 }
 .download{
     color: black;

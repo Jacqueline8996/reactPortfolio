@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import "./Footer.css";
-import Resume from "../../assets/Downloads/Jacqueline_Rivera2021_03FEB21.pdf"
+import Resume from "../../assets/Downloads/Jacqueline_Rivera_07JUN21.pdf"
 
 function Footer() {
   return (

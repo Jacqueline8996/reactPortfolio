@@ -3,8 +3,10 @@
     font-size: 5px;
     margin-top:15px;
     text-align: center;
+    font-family: 'Special Elite';
     padding-left: 5%;
     padding-right: 5%;
+    z-index: 0;
 }
 .image{
     width: 100%;
@@ -58,9 +60,11 @@
 
 #divInfo{
     font-family: 'Special Elite';
-   }
+    
 
-   @media only screen 
+}
+
+    @media only screen 
    and (min-device-width: 320px) 
    and (max-device-width: 480px)
    and (-webkit-min-device-pixel-ratio: 2)
@@ -68,29 +72,32 @@
 
     .carousel-caption{
         width: 100%;
-        font-size: x-small;
+        padding-top: 5%;
+        padding-bottom: 0;
+        margin-bottom: 0;
 
     }
     .caption{
         background-color: #303030;
-        margin-bottom: 0vh;
-        margin-left: -14.5vw;
+        margin-bottom: 0;
+     
     }
 
     #divInfo{
-        font-family: 'Special Elite', cursive;
-       }
+        font-family: 'Special Elite';
+    }
      
-       .fa-github{
-        color: #e16538;
-        font-size: 2vh;
-        text-decoration: none;
+    .fa-github{
+    color: #e16538;
+    font-size: 2vh;
+    text-decoration: none;
     }
     
     .fa-github:hover {
         color: #6dc4ca;
         text-decoration: none;
-    }
+    } 
+}
    
-   } 
+
    
